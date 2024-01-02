@@ -1,101 +1,134 @@
 .header__menu {
-    margin: 92px 50px;
-    display: grid;
-    grid-template-areas: 
-    "list logo address"
-    ;
+  margin: 92px 50px;
+  display: grid;
+  grid-template-areas: "list logo address";
 }
 .header__links-list {
-    grid-area: list;
-    width: 240px;
-    justify-self: flex-start;
-    display: flex;
-    align-items: center;
-    width: 388px;
-    list-style: circle;
-    justify-content: space-between;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  grid-area: list;
+  width: 240px;
+  justify-self: flex-start;
+  display: flex;
+  align-items: center;
+  width: 388px;
+  list-style: circle;
+  justify-content: space-between;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .header__links-list :first-child {
-    list-style: none;
+  list-style: none;
 }
-.header__links-list :hover{
-    text-decoration: none;
+.header__links-list :hover {
+  text-decoration: none;
 }
 .header__logo {
-    grid-area: logo;
+  grid-area: logo;
 }
 .header__logo-image {
-    display: block;
-    width: 148px;
-    height: 105px;
-    background-image: url("../images/logo-black.svg");
-    background-repeat: no-repeat;
-    background-position: center;
+  display: block;
+  width: 148px;
+  height: 105px;
+  background-image: url("../images/logo-black.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .address {
-    grid-area: address; 
-    align-self: end;
-    justify-self: end;
-    color: #000;
-     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24.3px; 
+  grid-area: address;
+  align-self: end;
+  justify-self: end;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.3px;
 }
 .cover {
-    position: relative;
-    background-image: url("../images/cover.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 757px;
-    /* z-index: 1; */
+  position: relative;
+  background-image: url("../images/cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 757px;
+  z-index: 1;
+  display: grid;
 }
 .title {
-    position: relative;
-    padding-left: 50px;
-    padding-right: 50px;
-    display: grid;
-    grid-gap: 20px;
-    padding-top: 165px;
-    color: #FFF;
-    text-align: center;
-    font-size: 100px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 100px;
-    letter-spacing: 30px;
-    text-transform: uppercase;
+  position: relative;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: grid;
+  grid-gap: 8px;
+  padding-top: 165px;
+  color: #fff;
+  text-align: center;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: 30px;
+  text-transform: uppercase;
 }
 .title_word {
-    padding-top: 5px;
-
+  padding-top: 5px;
 }
 .title_word-first {
-    justify-self: start;
-    padding-top: 5px;
+  justify-self: start;
+  padding-top: 5px;
 }
 .title_word_second {
-    padding-top: 7px;
+  padding-top: 7px;
 }
 .title_letter_space {
-    letter-spacing: 60px;
+  letter-spacing: 60px;
 }
-.title_letter_space_no {
-    letter-spacing: 0px;
+.title_letter_no-space {
+  letter-spacing: 0px;
 }
 .title_word-third {
-    border: 1px solid red;
-    text-align: end;
-    display: block;
+  text-align: end;
+  display: block;
 }
 .overlay {
-    position: absolute;
-    opacity: 0.6;
-    background: #000;
-    inset: 0;
+  position: absolute;
+  opacity: 0.6;
+  background: #000;
+  inset: 0;
+}
+.cover-description {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 130px;
+}
+.subtitle {
+  margin-right: 78px;
+  z-index: 10;
+  word-spacing: 17px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.subtitle_letter_space {
+  word-spacing: 21px;
+}
+.button {
+  padding: 0;
+  position: relative;
+  top: -13px;
+  border: 1px solid #fff;
+  width: 256px;
+  height: 51px;
+  margin-right: 51px;
+  z-index: 10;
+  color: #fff;
+  background-color: transparent;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
 }
