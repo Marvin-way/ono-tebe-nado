@@ -54,7 +54,7 @@
   z-index: 1;
   display: grid;
 }
-.title {
+.cover__title {
   position: relative;
   padding-left: 50px;
   padding-right: 50px;
@@ -96,12 +96,12 @@
   background: #000;
   inset: 0;
 }
-.cover-description {
+.cover__description {
   display: flex;
   justify-content: flex-end;
   padding-top: 130px;
 }
-.subtitle {
+.cover__description-text {
   margin-right: 78px;
   z-index: 10;
   word-spacing: 17px;
@@ -111,10 +111,10 @@
   line-height: 28px;
   text-transform: uppercase;
 }
-.subtitle_letter_space {
+.cover__description-text-space {
   word-spacing: 21px;
 }
-.button {
+.bet-button {
   padding: 0;
   position: relative;
   top: -13px;
