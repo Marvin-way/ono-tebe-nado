@@ -132,3 +132,89 @@
   line-height: normal;
   text-transform: uppercase;
 }
+
+.lots {
+  margin-top: 180px;
+}
+
+/* section lots */
+.lots {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.lots__heading {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+  margin-left: 40px;
+}
+.lots__card-list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+.lots__card-list-item {
+  width: 430px;
+  height: 450px;
+}
+.card {
+  z-index: 10;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.card_type_book {
+  background-image: url(../images/card-lot-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.card_type_picture {
+  background-image: url(../images/card-lot-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.card-link {
+  height: 100%;
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+.card__title {
+  z-index: 10;
+  padding-top: 50px;
+  padding-right: 40px;
+  padding-left: 40px;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26.4px
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.card__text {
+  z-index: 10;
+  padding-bottom: 50px;
+  padding-right: 40px;
+  padding-left: 40px;
+  color: #FFF;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
