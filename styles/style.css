@@ -290,5 +290,28 @@
   margin-top: 24px;
 }
 .footer {
-  margin-top: 180px;
+  margin: 180px 50px 88px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__menu-list {
+  list-style-type: none;
+}
+.footer__menu-link {
+  color: #000;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer__social-list {
+  display: flex;
+  gap: 48px;
+  list-style-type: none;
+}
+.footer__social-list-item {
+  width: 48px;
+  height: 48px;
 }
