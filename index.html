@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
     <header class="header">
-      <div class="header__menu">
+      <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item">
             <a href="" class="header__link">главная</a>
@@ -27,12 +27,11 @@
           <a class="header__logo-image"></a>
         </div>
         <address class="address">
-          <a href="tel:+99995555555">+9 999 555 5555</a><br />
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br />
-          <span class="header_address">наб. Принсенграхт 263-265,</span><br />
-          <span class="header_address">Амстердам</span>
+          <a href="tel:+99995555555">+9 999 555 5555</a>
+          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <p class="header_address">наб. Принсенграхт 263-265, Амстердам</p>
         </address>
-      </div>
+      </nav>
     </header>
     <main class="main">
       <section class="cover">
@@ -112,20 +111,20 @@
             </a>
           </li>
         </ul>
-        <a href="" class="lots__look-more-link">Посмотреть больше</a>
+        <a href="" class="lots__look-more-link">посмотреть больше</a>
       </section>
       <section class="about">
-        <article class="about__column about__column-logo">
+        <div class="about__column about__column-logo">
           <div class="about__logo">
             <img
               src="./images/logo-white.svg"
-              alt="logotype"
+              alt="словосочетание оно тебе надо в виде текста в черном кружке"
               class="about__logo-image"
             />
           </div>
-        </article>
-        <h3 class="about__title">Об аукционе</h3>
-        <article class="about__column about__column-text">
+        </div>
+        <h2 class="about__title">Об аукционе</h2>
+        <div class="about__column about__column-text">
           <p class="about__text">
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
@@ -141,55 +140,54 @@
             представить современную культуру. Когда в эти вещи не верил никто,
             продолжали верить их создатели. И сейчас эти лоты стали культовыми.
           </p>
-        </article>
+        </div>
       </section>
-      <footer class="footer">
-        <address class="address">
-          <a href="tel:+99995555555">+9 999 555 5555</a><br />
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br />
-          <span class="header_address">наб. Принсенграхт 263-265,</span><br />
-          <span class="header_address">Амстердам</span>
-        </address>
-        <nav class="footer__menu">
-          <ul class="footer__menu-list">
-            <li class="footer__menu-list-item">
-              <a href="" class="footer__menu-link">главная</a>
-            </li>
-            <li class="footer__menu-list-item">
-              <a href="" class="footer__menu-link">посмотреть лоты</a>
-            </li>
-            <li class="footer__menu-list-item">
-              <a href="" class="footer__menu-link">об аукционе</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="footer__social-list">
-          <li class="footer__social-list-item">
-            <a href="" class="footer__social-link"
-              ><img
-                src="./images/yt.svg"
-                alt="icon of YouTube"
-                class="footer__social-icon"
-            /></a>
+    </main>
+    <footer class="footer">
+      <address class="address">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p class="header_address">наб. Принсенграхт 263-265, Амстердам</p>
+      </address>
+      <nav class="footer__menu">
+        <ul class="footer__menu-list">
+          <li class="footer__menu-list-item">
+            <a href="" class="footer__menu-link">главная</a>
           </li>
-          <li class="footer__social-list-item">
-            <a href="" class="footer__social-link"
-              ><img
-                src="./images/vk.svg"
-                alt="icon of VK"
-                class="footer__social-icon"
-            /></a>
+          <li class="footer__menu-list-item">
+            <a href="" class="footer__menu-link">посмотреть лоты</a>
           </li>
-          <li class="footer__social-list-item">
-            <a href="" class="footer__social-link"
-              ><img
-                src="./images/pinterest.svg"
-                alt="icon of pinteres"
-                class="footer__social-icon"
-            /></a>
+          <li class="footer__menu-list-item">
+            <a href="" class="footer__menu-link">об аукционе</a>
           </li>
         </ul>
-      </footer>
-    </main>
+      </nav>
+      <ul class="footer__social-list">
+        <li class="footer__social-list-item">
+          <a href="" class="footer__social-link"
+            ><img
+              src="./images/yt.svg"
+              alt="icon of YouTube"
+              class="footer__social-icon"
+          /></a>
+        </li>
+        <li class="footer__social-list-item">
+          <a href="" class="footer__social-link"
+            ><img
+              src="./images/vk.svg"
+              alt="icon of VK"
+              class="footer__social-icon"
+          /></a>
+        </li>
+        <li class="footer__social-list-item">
+          <a href="" class="footer__social-link"
+            ><img
+              src="./images/pinterest.svg"
+              alt="icon of pinteres"
+              class="footer__social-icon"
+          /></a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
